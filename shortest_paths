@@ -1,0 +1,17 @@
+// Knight Shortest Paths
+digraph {
+	"(0, 0)" [label="Start (0, 0)" color=green shape=ellipse]
+	"(7, 7)" [label="End (7, 7)" color=red shape=ellipse]
+	"(0, 0)" -> "(2, 1)" [label="Step 1 of Path 1"]
+	"(2, 1)" -> "(4, 2)" [label="Step 2 of Path 1"]
+	"(4, 2)" -> "(6, 3)" [label="Step 3 of Path 1"]
+	"(6, 3)" -> "(4, 4)" [label="Step 4 of Path 1"]
+	"(4, 4)" -> "(6, 5)" [label="Step 5 of Path 1"]
+	"(6, 5)" -> "(7, 7)" [label="Step 6 of Path 1"]
+	"(0, 0)" -> "(2, 1)" [label="Step 1 of Path 2"]
+	"(2, 1)" -> "(4, 2)" [label="Step 2 of Path 2"]
+	"(4, 2)" -> "(6, 3)" [label="Step 3 of Path 2"]
+	"(6, 3)" -> "(4, 4)" [label="Step 4 of Path 2"]
+	"(4, 4)" -> "(5, 6)" [label="Step 5 of Path 2"]
+	"(5, 6)" -> "(7, 7)" [label="Step 6 of Path 2"]
+}
